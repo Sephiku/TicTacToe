@@ -41,10 +41,10 @@ namespace Inputbox
             button7.Text = "";
             button8.Text = "";
             button9.Text = "";
-            lblscore1.Text = "";
-            lblscore2.Text = "";
-            score1 = Convert.ToInt32(lblscore1.Text);
-            score2 = Convert.ToInt32(lblscore2.Text);
+            score1 = 0;
+            score2 = 0;
+            lblscore1.Text = Convert.ToString(score1);
+            lblscore2.Text = Convert.ToString(score2);
         }
         private void reset()
         {
